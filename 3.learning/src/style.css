@@ -1,0 +1,23 @@
+table{
+  border: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+#name{
+height: 20px;
+}
+#mark{
+height: 20px;
+}
+#sname{
+  color: royalblue;
+  font-family: calibri light;
+  font-size: medium;
+}
+#mname{
+  color: royalblue;
+  font-family: calibri light;
+  font-size: medium;
+
+}

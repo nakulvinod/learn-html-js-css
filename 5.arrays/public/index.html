@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../src/index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="edit_cont">
+        <input type="text" id="data" placeholder="value" />
+        <button onclick="validate()" id="add">Add</button>
+        <button onclick="pop()" id="pop">pop</button>
+        <button onclick="rem()" id="del">Delete</button>
+      </div>
+
+      <div id="replace_cont">
+        <input type="text" id="list_changer" placeholder="replace text" />
+        <input type="text" id="list_num" />
+        <button onclick="item_replace()" id="replace">replace</button>
+      </div>
+      <div id="search_cont">
+        <input type="text" id="search_name" placeholder="search text" />
+        <button onclick="search(search_name.value)" id="search">search</button>
+        <button id="clear" onclick="clearSearch()">Clear search</button>
+        <span id="ki" style="display: none">.............</span>
+      </div>
+    </div>
+    <div id="target"></div>
+  </body>
+</html>

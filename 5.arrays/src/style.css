@@ -1,0 +1,127 @@
+ .col {
+    margin: 20px;
+    font-family: calibri light;
+    padding: 20px;
+    margin: 10px;
+    color: #e9d8a6;
+    background-color: #BA2926;
+    font-size: large;
+    display: inline-block;
+}
+
+.col.selected{
+    background-color: #2B4162;
+}
+#wrapper{
+    text-align:center;
+
+}
+#target{
+    min-width: 500px;
+    min-height: 50px;
+    border-width: 7px;
+    border-color: #FA9F42;
+    border-style:solid ;
+    border-right: 0px;
+    border-radius: 5px;
+
+     
+     
+}
+#edit_cont{
+    margin: 6px;
+    padding: 3px;
+}
+
+#replace_cont{
+    margin: 6px;
+    padding: 3px;
+}
+
+#search_cont{
+    margin: 6px;
+    padding: 3px;
+}
+
+
+#data{
+    border-radius: 10px;
+    border-color: #0B6E4F;
+    background-color: white;
+    outline: none;
+}
+#list_changer{
+    border-radius: 10px;
+    border-color: #2B4162;
+    background-color: white;
+    outline: none;
+}
+#list_num{
+    border-radius: 10px;
+    border-color:#FA9F42 ;
+    background-color: white;
+    outline: none;
+}
+#search_name{
+    border-radius: 10px;
+    border-color: #BA2926;
+    background-color: white;
+    outline: none;
+}
+
+#clear{
+    border-radius: 10px;
+    border-color: white;
+    background-color:#FA9F42 ;
+
+}
+#add{
+    background-color:#BA2926 ;
+    border-radius: 10px;
+    border-color: white;
+
+}
+button {
+    color: white
+}
+#pop{
+    background-color:#FA9F42 ;
+    border-radius: 10px;
+    border-color: white;
+
+}
+
+#del{
+    background-color:#2B4162 ;
+    border-radius: 10px;
+    border-color: white;
+
+}
+
+#replace{
+    background-color: #0B6E4F;
+    border-radius: 10px;
+    border-color: white;
+
+}
+
+#search{
+    background-color:#BA2926 ;
+    border-radius: 10px;
+    border-color: white;
+}
+#ki{
+    border-color: white;
+    background-color: #2B4162;
+    border-radius:10px;
+} 
+
+
+
+
+
+
+
+
+
+
