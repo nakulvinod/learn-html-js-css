@@ -1,0 +1,18 @@
+#main-container{
+    display: flex;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+}
+#heading{
+    color: royalblue;
+    text-decoration: none;
+    font-family: calibri light;
+    text-align: center;
+}
+#sub-heading{
+    text-decoration: none;
+    font-family: calibri light;
+    text-align:center
+}
