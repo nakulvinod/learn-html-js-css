@@ -84,22 +84,45 @@ div.image-container{
     margin-left: 0px;
     justify-content: space-between;
 }
+
+.image-container>div>p{
+    margin-top: 0px;
+}
 .tag{
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
     font-size: 16px;
     font-family: monospace  ;
     border-color:white ;
     border-style: solid;
     border-width: 1px;
     border-radius: 30px;
-    width: max-content;
     background-color: #E71D36;
+    display: inline-flex;
+    align-items: center;
+    color: #011627
 }
+
+.tag>i {
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+
 .tag.first{
     background-color: #E71D36;
 }
 
 .tag.second{
-    background-color: red;
+     
+    
+    background-color: #ff9f1c;
+}
+.project-image{
+    width: 230px;
+}
+.hobby-sub{
+    text-align: center;
 }
