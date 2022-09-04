@@ -126,3 +126,8 @@ div.image-container{
 .hobby-sub{
     text-align: center;
 }
+.footer{
+          display: flex;
+          justify-content: space-between;
+          margin-top: 130px;
+}
