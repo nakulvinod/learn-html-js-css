@@ -1,0 +1,82 @@
+.header{
+    font-size: 65px;
+    font-family: "Bungee",cursive;
+    color: #f4a261;
+}
+body{
+    color: #F0D3F7;
+    background-color: #264653;
+    font-size: 40px;
+    padding: 20px;
+    font-family: "Ubuntu",sans-serif;
+}
+#input{
+
+    width: 450px;
+    height: 60px;
+    background-color: #2a9d8f;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 0%;
+    font-size: 30px;color: whitesmoke;
+    font-family: "Ubuntu",sans-serif;
+    padding-left: 15px   ;
+    margin-right: 10px;
+    
+}
+
+#output{
+    width: 450px;
+    height: 60px;
+    background-color: #2a9d8f;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 0%;
+    font-size: 30px;color:whitesmoke;
+    font-family: "Ubuntu",sans-serif;
+    padding-left: 15px   ;
+    
+}
+.button{
+    cursor: pointer;
+    font-family:"Ubuntu",sans-serif; 
+    font-size: 40px;
+    color: #264653;
+    margin: 20px;
+    background-color: #c8adad;
+    border: none;
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+}
+.button-cont{
+    width: 98vw;
+    display: flex; 
+    justify-content: center;
+}
+.cont{ 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display:flex;
+    width: 98vw;
+    justify-content: center
+}
+::placeholder {
+        color: whitesmoke;
+    font-size: 30px;
+  }
+::-ms-input-placeholder { 
+    color: whitesmoke;
+    font-size: 30px;
+
+  }
+.currency{
+    font-size: 30px;
+    background-color: #f4a261;
+    margin-right: 10px;
+    color: #264653;
+    border-radius: 10px;
+}
+option{
+    font-size: 25px;
+}

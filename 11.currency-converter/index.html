@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="src/index.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">Currency Converter</div>
+    <div class="cont">
+      <select name="Currency" class="currency 1" id="sourceCurrency">
+        <option value="usd">usd</option>
+        <option value="inr">inr</option>
+        <option value="eur">eur</option>
+      </select>
+      <input
+        type="text"
+        id="input"
+        placeholder="Enter source currency "
+        onkeyup="checkInput(event)"
+      />
+      <!-- onkeypress="checkInput()" -->
+      <img src="image/shuffle.png" alt="" style="height: 60px" />
+      <span
+        type="text"
+        id="output"
+        style="
+          width: 400px;
+          margin-left: 10px;
+          margin-right: 10px;
+          padding-top: 12px;
+          height: 48px;
+        "
+        >--</span
+      >
+
+      <select name="Currency" class="currency 2" id="destinationCurrency">
+        <option value="usd">usd</option>
+        <option value="inr" selected>inr</option>
+        <option value="eur">euro</option>
+      </select>
+    </div>
+    <div class="button-cont">
+      <button class="button" onclick="convertCurrency()" id="button">
+        <span> CONVERT</span>
+      </button>
+    </div>
+  </body>
+</html>
