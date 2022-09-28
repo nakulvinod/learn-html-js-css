@@ -26,6 +26,9 @@ const v = (u) => {
   }
   if (categoryList.includes(u)) {
     category = u;
+    document.getElementsByName("button").style.backgroundColor = "#8ecae6";
+    document.getElementById(category).style.backgroundColor = "#ff3030";
+
     window.location = `${window.location.origin}?category=${category}`;
   }
 
