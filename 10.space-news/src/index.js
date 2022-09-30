@@ -26,10 +26,8 @@ const v = (u) => {
   }
   if (categoryList.includes(u)) {
     category = u;
-    document.getElementsByName("button").style.backgroundColor = "#8ecae6";
-    document.getElementById(category).style.backgroundColor = "#ff3030";
 
-    window.location = `${window.location.origin}?category=${category}`;
+    window.location = `${window.location.origin}?category=${u}`;
   }
 
   if (
@@ -39,11 +37,14 @@ const v = (u) => {
     category = "science";
     window.location = `${window.location.origin}?category=${category}`;
   }
+  document.getElementById(`${category}`).style.backgroundColor = "#ff3030";
 
   console.log(u);
   console.log(category);
+
   let header = document.getElementById("header");
   header.innerHTML = `${category.toUpperCase()} NEWS`;
+
   fetch(`https://inshorts.deta.dev/news?category=${category}`, {
     method: "GET",
   }).then(async (response) => {
