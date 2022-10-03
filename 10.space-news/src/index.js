@@ -28,6 +28,7 @@ const v = (u) => {
     category = u;
 
     window.location = `${window.location.origin}?category=${u}`;
+    document.getElementById(`${u}`).style.backgroundColor = "#ff3030";
   }
 
   if (
@@ -37,13 +38,12 @@ const v = (u) => {
     category = "science";
     window.location = `${window.location.origin}?category=${category}`;
   }
-  document.getElementById(`${category}`).style.backgroundColor = "#ff3030";
-
   console.log(u);
   console.log(category);
 
   let header = document.getElementById("header");
   header.innerHTML = `${category.toUpperCase()} NEWS`;
+  document.title = `${category.toUpperCase()} NEWS`;
 
   fetch(`https://inshorts.deta.dev/news?category=${category}`, {
     method: "GET",
